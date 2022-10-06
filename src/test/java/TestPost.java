@@ -20,9 +20,9 @@ public class TestPost {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some data"))
+                .body("data", equalTo("some dat"))
                 .body("json", equalTo(null))
-                .body("url", equalTo("https://postman-echo.com/post"))
+                .body("url", equalTo("https://postman-echo.com/pos"))
         ;
     }
 }
